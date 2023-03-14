@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;600&display=swap");
+
+.workbody {
+  font-family: "Saira Extra Condensed", sans-serif;
+  height: 100vh;
+  font-size: 130px;
+  font-weight: 600;
+}
+
+.title {
+  display: flex;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  margin-left: 10%;
+  margin-top: -2%;
+}
+
+.block {
+  height: 10px;
+  background-color: black;
+  width: 20px;
+  margin-left: 10%;
+  margin-top: -50px;
+}
+
+.oriworks {
+  margin-left: 10%;
+  font-size: 80px;
+}
+
+.heading {
+  margin-top: 2%;
+}
+
+.galldescription {
+  font-size: 20px;
+  width: 40%;
+}
+
+li {
+  font-size: 20px;
+}

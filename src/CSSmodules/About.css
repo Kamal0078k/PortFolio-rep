@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;600&display=swap");
+
+.cont {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  width: 100%;
+  margin-top: -5%;
+}
+
+.contme {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  width: 100%;
+  margin-top: -50px;
+}
+
+.lol {
+  font-size: 130px;
+  font-weight: 600;
+  font-kerning: none;
+  width: 1400%;
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.lol1 {
+  font-size: 60px;
+  font-weight: 600;
+  font-kerning: none;
+  width: 1400%;
+  font-family: "Saira Extra Condensed", sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+
+.lol span {
+  font-size: 50px;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+
+p {
+  font-size: 30px;
+  margin-left: 10%;
+  width: 30%;
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.paraa {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.paraa1 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  margin-top: -25px;
+}
