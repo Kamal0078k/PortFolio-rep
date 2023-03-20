@@ -11,7 +11,6 @@
   display: flex;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   margin-left: 10%;
-  margin-top: -2%;
 }
 
 .block {
@@ -29,13 +28,36 @@
 
 .heading {
   margin-top: 2%;
+  font-size: 50px;
 }
 
-.galldescription {
+.galldesc {
   font-size: 20px;
+}
+
+.Gallery {
+  display: block;
+  width: 80%;
+  margin: 0 5%;
+}
+
+.gallimages {
+  display: flex;
+  justify-content: center;
+}
+
+.gall1 {
+  margin-right: 50%;
+  margin-top: 10%;
   width: 40%;
 }
 
-li {
-  font-size: 20px;
+.gall2 {
+  margin-left: 50%;
+  margin-top: 10%;
+  width: 40%;
+}
+
+.gall3 {
+  width: 40%;
 }

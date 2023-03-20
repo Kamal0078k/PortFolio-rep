@@ -3,6 +3,9 @@ import "./../CSSmodules/Work.css";
 import gsap from "gsap";
 import SplitType from "split-type";
 import { ScrollTrigger, CustomEase } from "gsap/all";
+import gall1 from "./../assets/gall1.png";
+import gall2 from "./../assets/gall2.png";
+import gall3 from "./../assets/gall3.png";
 
 const Work = () => {
   const work = new SplitType("#work");
@@ -41,47 +44,88 @@ const Work = () => {
         delay: 0.5,
         scrollTrigger: {
           trigger: ".block",
+
+          scrub: true,
+        },
+      }
+    );
+
+    gsap.fromTo(
+      ".gall1",
+
+      {
+        x: 300,
+      },
+      {
+        x: 0,
+
+        duration: 0.5,
+        delay: 0.5,
+        scrollTrigger: {
+          trigger: ".gall1",
+
+          scrub: true,
+        },
+      }
+    );
+
+    gsap.fromTo(
+      ".gall2",
+
+      {
+        x: -300,
+      },
+      {
+        x: 0,
+
+        duration: 0.5,
+        delay: 0.5,
+        scrollTrigger: {
+          trigger: ".gall2",
+
+          scrub: true,
+        },
+      }
+    );
+
+    gsap.fromTo(
+      ".gall3",
+
+      {
+        y: 300,
+      },
+      {
+        y: 0,
+
+        duration: 0.5,
+        delay: 0.5,
+        scrollTrigger: {
+          trigger: ".gall2",
+
+          scrub: true,
         },
       }
     );
   }, []);
   return (
     <div className="workbody">
-      <div>
-        <div className="title">
-          <div id="work" className="workss">
-            WORKS
-          </div>
+      <div className="title">
+        <div id="work" className="workss">
+          WORKS
         </div>
-        <div className="block"></div>
-        <div className="oriworks">
-          <div>
-            <div className="heading">1.Gallery App</div>
-
-            <div className="galldescription">
-              A web application that allows users to create an account and store
-              images. The application is built using React, Express.js, and
-              MongoDB, which are all popular tools for building web
-              applications.
-            </div>
-            <div className="galldescription">
-              Once a user has created an account, they can upload images to the
-              application, which are then stored in the MongoDB database. Users
-              can view their own images and manage them, such as deleting or
-              editing them.
-            </div>
-            <div className="galldescription">
-              The application also allows users to share their images with other
-              users by specifying the username of the recipient. The recipient
-              will then be able to view the shared images in their own account.
-            </div>
-            <div className="galldescription">
-              The use of React in the application allows for a smooth and
-              responsive user interface, while Express.js handles the
-              server-side logic and communicates with the MongoDB database to
-              store and retrieve data.
-            </div>
+      </div>
+      <div className="block"></div>
+      <div className="oriworks">
+        <div>
+          <div className="heading">1.Gallery App</div>
+        </div>
+        <div className="Gallery">
+          <div className="gallimages">
+            <img src={gall1} className="gall1" />
+            <img src={gall2} className="gall2" />
+            <img src={gall3} className="gall3" />
           </div>
+          <div className="galldesc">HELOO im kamal from so and so</div>
         </div>
       </div>
     </div>
