@@ -88,7 +88,7 @@ const About = () => {
         scrollTrigger: {
           trigger: ".box",
           start: "top 100%",
-          markers: true,
+
           end: "bottom 100%",
           scrub: true,
         },

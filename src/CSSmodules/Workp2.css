@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+.galdesc {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin: 0 10%;
+}

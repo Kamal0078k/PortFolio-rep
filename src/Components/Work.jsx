@@ -44,7 +44,8 @@ const Work = () => {
         delay: 0.5,
         scrollTrigger: {
           trigger: ".block",
-
+          start: "top 100%",
+          end: "bottom 100%",
           scrub: true,
         },
       }
@@ -63,7 +64,8 @@ const Work = () => {
         delay: 0.5,
         scrollTrigger: {
           trigger: ".gall1",
-
+          start: "top 100%",
+          end: "bottom 100%",
           scrub: true,
         },
       }
@@ -82,7 +84,8 @@ const Work = () => {
         delay: 0.5,
         scrollTrigger: {
           trigger: ".gall2",
-
+          start: "top 100%",
+          end: "bottom 100%",
           scrub: true,
         },
       }
@@ -92,7 +95,7 @@ const Work = () => {
       ".gall3",
 
       {
-        y: 300,
+        y: 200,
       },
       {
         y: 0,
@@ -119,14 +122,11 @@ const Work = () => {
         <div>
           <div className="heading">1.Gallery App</div>
         </div>
-        <div className="Gallery">
-          <div className="gallimages">
-            <img src={gall1} className="gall1" />
-            <img src={gall2} className="gall2" />
-            <img src={gall3} className="gall3" />
-          </div>
-          <div className="galldesc">HELOO im kamal from so and so</div>
-        </div>
+      </div>
+      <div className="gallimages">
+        <img src={gall1} className="gall1" />
+        <img src={gall2} className="gall2" />
+        <img src={gall3} className="gall3" />
       </div>
     </div>
   );

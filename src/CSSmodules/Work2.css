@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;600&display=swap");
+
+.work2 {
+  display: block;
+  margin: 0 auto;
+  font-family: "Saira Extra Condensed", sans-serif;
+  width: 80%;
+  font-size: 50px;
+
+  font-weight: 600;
+}
+.unpimages {
+  display: flex;
+
+  height: 500px;
+  justify-content: center;
+}
+
+.unp1 {
+  margin-right: 50%;
+  margin-top: 10%;
+  width: 40%;
+}
+
+.unp2 {
+  margin-left: 50%;
+  margin-top: 10%;
+  width: 40%;
+}
+
+.unp3 {
+  z-index: 20;
+  width: 40%;
+}

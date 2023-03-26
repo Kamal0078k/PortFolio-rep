@@ -1,0 +1,47 @@
+.contact {
+  margin-top: 10px;
+}
+
+.conttitle {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.contddet {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: center;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+}
+
+.det {
+  transition: scale 0.5s cubic-bezier(0.67, 0.09, 0, 1.16);
+  margin-bottom: -40px;
+  color: black;
+}
+.linkcol {
+  color: black;
+  transition: color 0.5s cubic-bezier(0.67, 0.09, 0, 1.16);
+}
+
+.linkcol:hover {
+  color: rgb(69, 69, 69);
+}
+
+.det:hover {
+  scale: 1.1;
+}
+.contheading {
+  font-size: 130px;
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  font-kerning: none;
+  width: 1400%;
+  font-family: "Saira Extra Condensed", sans-serif;
+}

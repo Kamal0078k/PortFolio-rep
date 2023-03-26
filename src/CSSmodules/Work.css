@@ -43,6 +43,7 @@
 
 .gallimages {
   display: flex;
+
   justify-content: center;
 }
 

@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+.worl2desc {
+  display: block;
+  width: 80%;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 450px; */
+  text-align: center;
+}

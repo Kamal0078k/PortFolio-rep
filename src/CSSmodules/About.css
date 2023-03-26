@@ -37,7 +37,7 @@
 
 .imgka {
   width: 40%;
-  margin-top: -200px;
+  margin-top: -400px;
 }
 
 img {
@@ -71,10 +71,10 @@ img {
 }
 
 p {
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 10%;
   width: 50%;
-  font-family: "Saira Extra Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .paraa {
@@ -85,4 +85,3 @@ p {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   margin-top: -20px;
 }
-
