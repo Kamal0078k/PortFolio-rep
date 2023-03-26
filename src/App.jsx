@@ -10,7 +10,9 @@ import Contact from "./Components/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
-
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="App">
       <Hero />
