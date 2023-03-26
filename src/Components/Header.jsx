@@ -11,8 +11,6 @@ const Header = () => {
     <div>
       <div className={classes.header}>
         <div>PORTFOLIO</div>
-
-        <button onClick={menuhandler}>MENU</button>
       </div>
     </div>
   );
